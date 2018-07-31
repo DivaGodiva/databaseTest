@@ -8,7 +8,7 @@ const { PORT, MONGODB_URI } = require('./config');
 
 const datasRouter = require('./datas');
 
-// Create an Express application
+// Create an Express application.
 const app = express();
 
 // Log all requests. Skip logging during
