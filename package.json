@@ -1,0 +1,18 @@
+{
+	"name": "database-app",
+	"version": "0.0.1",
+	"license": "MIT",
+	"author": "Simon Chae",
+	"repository": {
+		"type": "git"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"express": "^4.16.3",
+		"mongoose": "^5.2.3",
+		"morgan": "^1.9.0"
+	}
+}
